@@ -1,0 +1,25 @@
+{
+  "name": "dijkstras-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "start-dev": "nodemon src/app.ts",
+    "seed": "node dist/seed.js",
+    "tsc": "tsc"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
